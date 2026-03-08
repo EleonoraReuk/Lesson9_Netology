@@ -8,12 +8,12 @@ int main()
 	const int size{ 9 };
 	int array[size]{ 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-	std::cout << "Äî ôóíêöèè reverse: ";
+	std::cout << "Ğ”Ğ¾ Ñ„ÑƒĞ½ĞºÑ†Ğ¸Ğ¸ reverse: ";
 	print(array, size);
 
 	reverse(array, size);
 
-	std::cout << "Ïîñëå ôóíêöèè reverse: ";
+	std::cout << "ĞŸĞ¾ÑĞ»Ğµ Ñ„ÑƒĞ½ĞºÑ†Ğ¸Ğ¸ reverse: ";
 	print(array, size);
 
 	return EXIT_SUCCESS;
@@ -40,4 +40,5 @@ void reverse(int* array, int size)
 		array[element] = array[size - 1 - element];
 		array[size - 1 - element] = temp;
 	}
+
 }
