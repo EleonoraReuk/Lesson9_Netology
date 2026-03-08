@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 void printArray(int* integers, int size);
 
@@ -31,4 +31,3 @@ void printArray(int* integers, int size)
 		std::cout << integers[element] << " ";
 	}
 }
-*/
